@@ -1,0 +1,84 @@
+/* http://www.colourlovers.com/palette/2563513/Valhalla */
+
+body {
+	background: url("../backgrounds/as11-44-6552~orig.jpg") center no-repeat fixed;
+	background-size: cover;
+	font-family: monospace;
+	font-size: 16px;
+	color: white;
+}
+
+h1 {
+	color: #f7e0b4;
+	text-shadow: 0 0 5px #f7e0b4;
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.0rem;
+}
+
+strong {
+	color: #f7e0b4;
+	text-shadow: 0 0 5px #f7e0b4;
+	font-weight: normal;
+}
+
+hr {
+	border: 1px solid;
+	color: #9d1033;
+}
+
+.box, body > footer {
+	background-color: #120e48;
+	border: 1px solid #9d1033;
+	box-shadow: 0 0 50px #f28355;
+}
+
+.inlineheading {
+	color: #f7e0b4;
+}
+
+select, input, textarea {
+	color: white;
+	font-family: monospace;
+	font-size: 0.9rem;
+	background-color: #120e48;
+	border: 1px solid #9d1033;
+}
+
+a, a:active, a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: lightsalmon;
+}
+
+button {
+	color: #f7e0b4;
+	border-color: #9d1033;
+	background-color: #120e48;
+/*	box-shadow: 0 0 5px #9d1033; */
+	font-size: 1.0rem;
+	font-family: monospace;
+	outline: none;
+	border:none;
+}
+
+.collapsible:after {
+	content: " \02795";
+	text-decoration: none;
+	color: lightsalmon;
+	outline:none;
+	border:none;
+}
+
+.active:after {
+	content: " \2796";
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #120e48;
+}

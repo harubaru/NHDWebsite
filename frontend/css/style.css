@@ -1,0 +1,42 @@
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 3em 0 0 0;
+	box-sizing: border-box;
+}
+
+header, footer {
+	text-align: center;
+	width: 100%;
+}
+
+body > footer {
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0.5em;
+	box-sizing: border-box;
+}
+
+label {
+	display: block;
+	float: left;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+	color: lightcoral;
+}
+
+div.box {
+	width: 960px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+radio {
+	margin: 0 auto;
+}
