@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NHD Space Race</title>
+		<meta charset="UTF-8">
+		<meta name="theme-color" content="#0f0d0e">
+		<link rel="icon" type="image/png" sizes="64x64" href="favicon-64x64.png">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/valhalla.css">
+		<script defer src="../js/radio.js" type = "text/javascript"></script>
+	</head>
+	
+	<audio id="audio">
+		<source id="currentchannel" src="" type="audio/ogg">
+	</audio>
+
+	<body>
+		<div class="box">
+			<header>
+				<h1>Image Sources</h1>
+            </header>
+            <hr>
+
+            <div class = "polaroid">
+                <img src="../backgrounds/as11-44-6552~orig.jpg">
+                <div class = "container">
+                    <p>
+                        <strong>Filename:</strong> as11-44-6552~orig.jpg <br/>
+                        <strong>Source:</strong> <a href="https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=AS11&roll=44&frame=6552">NASA Image Archives</a>
+                    </p>
+                </div>
+            </div>
+            
+
+            <hr>
+            <br/>
+            <center>
+				[
+				<a href="index.html">home</a>
+				/
+				<a href="https://github.com/tone121/server">github</a>
+				]
+			</center>
+
+		</div>
+
+        <style>
+            img {
+/*                padding: 5px;
+*/                width: 100%;
+            }
+
+            div.polaroid {
+                width:30%;
+                background-color: #3d3242;
+                border: 2px solid #9c8aa5;
+                border-radius: 4px;
+                margin-bottom: 1em;
+                box-shadow: 0 0 5px #7a3e48;
+            }
+            
+            div.container {
+                padding: 10px 20px;
+            }
+        </style>
+
+		<script type="text/javascript">
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+				content.style.display = "none";
+				} else {
+				content.style.display = "block";
+				}
+			});
+			} 
+		</script>
+
+	</body>
+</html>

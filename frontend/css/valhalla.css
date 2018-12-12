@@ -9,8 +9,8 @@ body {
 }
 
 h1 {
-	color: #f7e0b4;
-	text-shadow: 0 0 5px #f7e0b4;
+	color: #eef0f2;
+	text-shadow: 0 0 5px #eef0f2;
 	font-size: 1.3rem;
 	font-weight: normal;
 }
@@ -27,13 +27,13 @@ strong {
 
 hr {
 	border: 1px solid;
-	color: #9d1033;
+	color: #9c8aa5;
 }
 
 .box, body > footer {
-	background-color: #120e48;
-	border: 1px solid #9d1033;
-	box-shadow: 0 0 50px #f28355;
+	background-color: #3d3242;
+	border: 1px solid #9c8aa5;
+	box-shadow: 0 0 50px #7a3e48;
 }
 
 .inlineheading {
@@ -44,8 +44,8 @@ select, input, textarea {
 	color: white;
 	font-family: monospace;
 	font-size: 0.9rem;
-	background-color: #120e48;
-	border: 1px solid #9d1033;
+	background-color: #3d3242;
+	border: 1px solid #9c8aa5;
 }
 
 a, a:active, a:link, a:hover, a:visited {
@@ -55,11 +55,16 @@ a, a:active, a:link, a:hover, a:visited {
 
 button {
 	color: #f7e0b4;
-	border-color: #9d1033;
-	background-color: #120e48;
-/*	box-shadow: 0 0 5px #9d1033; */
+	border-color: #c0bfc0;
+	background-color: #1f1b21;
+	box-shadow: 0 0 5px #7a3e48; 
+	height:25px;
+	line-height:25px;
 	font-size: 1.0rem;
 	font-family: monospace;
+	text-align: center;
+	vertical-align: middle;
+	line-height:normal;
 	outline: none;
 	border:none;
 }
@@ -67,7 +72,7 @@ button {
 .collapsible:after {
 	content: " \02795";
 	text-decoration: none;
-	color: lightsalmon;
+	color: #f7e0b4;
 	outline:none;
 	border:none;
 }
@@ -80,5 +85,6 @@ button {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
-	background-color: #120e48;
+	background-color: #1f1b21;
+	box-shadow: 0 0 5px #7a3e48; 
 }
