@@ -43,6 +43,15 @@ div.box {
 	padding: 1em;
 }
 
+img {
+	/*                padding: 5px;
+	*/                width: 100%;
+}
+
+div.container {
+	padding: 10px 20px;
+}
+
 radio {
 	margin: 0 auto;
 }
